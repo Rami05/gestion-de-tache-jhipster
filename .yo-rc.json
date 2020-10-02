@@ -1,0 +1,47 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "com.rbs.tn",
+            "nativeLanguage": "fr"
+        },
+        "jhipsterVersion": "5.8.2",
+        "applicationType": "monolith",
+        "baseName": "gestionTaches",
+        "packageName": "com.rbs.tn",
+        "packageFolder": "com/rbs/tn",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "ehcache",
+        "enableHibernateCache": true,
+        "websocket": false,
+        "databaseType": "sql",
+        "devDatabaseType": "h2Disk",
+        "prodDatabaseType": "postgresql",
+        "searchEngine": false,
+        "messageBroker": false,
+        "serviceDiscoveryType": false,
+        "buildTool": "maven",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "YWM0MDU2ZWRiNGY3NDk2Yjg5ZTE3NDc3NGM3ZGNiMGUxNTA1MDI5NjE1MjYxMDRjM2I5OTE0YTBkMGZkY2FmNDYzZGU4NTI1NjIxZDY5N2ZiNjJkYzljMjM5MzAzNDkxYzJjOTYzNWNmZDgxZWJkOGRjNDNhYmZlNGMzNDgxMTA=",
+        "clientFramework": "angularX",
+        "useSass": true,
+        "clientPackageManager": "npm",
+        "testFrameworks": ["protractor"],
+        "jhiPrefix": "jhi",
+        "entitySuffix": "",
+        "dtoSuffix": "DTO",
+        "otherModules": [
+            {
+                "name": "generator-jhipster-docker",
+                "version": "2.5.0"
+            },
+            {
+                "name": "generator-jhipster-swagger-cli",
+                "version": "3.0.1"
+            }
+        ],
+        "enableTranslation": true,
+        "nativeLanguage": "fr",
+        "languages": ["fr", "en", "es"]
+    }
+}
